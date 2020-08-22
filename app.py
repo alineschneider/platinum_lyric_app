@@ -6,6 +6,7 @@ import numpy as np
 import json
 import nltk
 nltk.download('punkt')
+nltk.download('stopwords')
 from nltk import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
