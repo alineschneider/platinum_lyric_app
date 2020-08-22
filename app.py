@@ -1,12 +1,9 @@
-from flask import Flask, render_template, jsonify, request, url_for, redirect
-from flask_sqlalchemy import SQLAlchemy
-# from config import password
+from flask import Flask, render_template, jsonify, request
 import plotly
 import plotly.graph_objs as go
 import pandas as pd
 import numpy as np
 import json
-import os
 import nltk
 from nltk import word_tokenize
 from nltk.corpus import stopwords
