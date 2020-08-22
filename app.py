@@ -5,6 +5,7 @@ import pandas as pd
 import numpy as np
 import json
 import nltk
+nltk.download('punkt')
 from nltk import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
