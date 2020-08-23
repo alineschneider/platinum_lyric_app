@@ -6,7 +6,7 @@ Web application developed as part of a team project with the purpose of predicti
 Aline Schneider - Web Application\
 Corentin Levant - ETL/Database\
 Jacob Wade - Project Management/Tableau Dashboard\
-Samin Pogoff - Machine Learning Model\
+Samin Pogoff - Machine Learning Model
 
 ## Application
 [Web app deployed to Heroku](https://platinum-lyric.herokuapp.com/).
