@@ -75,6 +75,11 @@ def plot_unique_words_bubble():
     # Get unique words in successful and unsuccessful songs
     top100_s_unique = [word for word in top100_s if word not in top100_u]
     top100_u_unique = [word for word in top100_u if word not in top100_s]
+
+    # Remove the last word for both lists, to censor the last word in top100_u_unique from the visualization
+    top100_s_unique = top100_s_unique[:-1]
+    top100_u_unique = top100_u_unique[:-1]
+
     # Get frequencies of unique words
     s_unique_f = []
     for word in top100_s_unique:
